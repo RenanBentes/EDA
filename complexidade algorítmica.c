@@ -1,3 +1,6 @@
+//consiste em analisar e comparar a complexidade algorítmica dos métodos de ordenação
+//(bubble-sort, insertion-sort, heap-sort, merge-sort, quick-sort e radix-sort)
+//Para a visualizar graficamente, foi utilizado o codigo Grafico.py neste repositorio
 #include <stdio.h>
 #include <stdlib.h>
 
