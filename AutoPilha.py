@@ -19,15 +19,6 @@ class AutoPilha(Stack):
     def get_sum(self):
         return self.__sum
 
-    def push(self, val):
-        self.__sum += val
-        Stack.push(self, val)
-
-    def pop(self):
-        val = Stack.pop(self)
-        self.__sum -= val
-        return val
-
     def get_sum(self):
         return self.__sum
 
@@ -36,7 +27,11 @@ stack_object = AutoPilha()
 
 for i in range(5):
     stack_object.push(i)
-    print("Empilhando",i)
+    print("Empilhando", i)
+    #Pedir entrada
+    #j = int(input())
+    #stack_object.push(j)
+    #print("Empilhando",j)
 
 
 print("\nSomatorio dos elementos da pilha", stack_object.get_sum(),"\n")
