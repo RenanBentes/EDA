@@ -10,7 +10,6 @@ class Stack:
         del self.__stack_list[-1]
         return val
 
-
 class AutoPilha(Stack):
     def __init__(self):
         Stack.__init__(self)
@@ -18,10 +17,6 @@ class AutoPilha(Stack):
 
     def get_sum(self):
         return self.__sum
-
-    def get_sum(self):
-        return self.__sum
-
 
 stack_object = AutoPilha()
 
