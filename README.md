@@ -37,7 +37,7 @@ Este repositório é uma coleção de implementações de estruturas de dados cl
 - **Tipo**: Árvore binária de busca auto-balanceada
 - **Mecanismo**: Usa 5 propriedades baseadas na coloração dos nós (Vermelho/Preto) para garantir um balanceamento aproximado
 - **Complexidade**: Busca, inserção e remoção em O(log n)
-- **Característica**: É menos estrita que a AVL, resultando em menos rotações na inserção/remoção, sendo uma escolha comum para implementações práticas (ex: std::map em C++)
+- **Característica**: É menos estrita que a AVL, resultando em menos rotações na inserção/remoção, sendo uma escolha comum para implementações práticas.
 
 ### Árvore B (`Trees/B.c`)
 - **Tipo**: Árvore de busca auto-balanceada de ordem m
