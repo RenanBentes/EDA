@@ -37,13 +37,13 @@ Este repositório é uma coleção de implementações de estruturas de dados cl
 - **Tipo**: Árvore binária de busca auto-balanceada
 - **Mecanismo**: Usa 5 propriedades baseadas na coloração dos nós (Vermelho/Preto) para garantir um balanceamento aproximado
 - **Complexidade**: Busca, inserção e remoção em O(log n)
-- **Característica**: É menos estrita que a AVL, resultando em menos rotações na inserção/remoção, sendo uma escolha comum para implementações práticas.
+- **Característica**: É menos estrita que a AVL, resultando em menos rotações na inserção/remoção, sendo uma escolha comum para implementações práticas
 
 ### Árvore B (`Trees/B.c`)
 - **Tipo**: Árvore de busca auto-balanceada de ordem m
 - **Mecanismo**: Permite que os nós tenham um número variável de filhos (até m). Os dados são mantidos ordenados dentro de cada nó
 - **Complexidade**: Busca, inserção e remoção em O(log n)
-- **Característica**: Reduz a altura da árvore drasticamente, otimizando o número de acessos a disco. É a base de dados para a maioria dos sistemas de arquivos e bancos de dados
+- **Característica**: Reduz a altura da árvore drasticamente, otimizando o número de acessos ao disco. É a base de dados para a maioria dos sistemas de arquivos e bancos de dados
 
 ### Árvore Trie (`Trees/Trie.c`)
 - **Tipo**: Árvore de prefixos
